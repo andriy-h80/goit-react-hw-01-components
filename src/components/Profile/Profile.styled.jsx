@@ -25,7 +25,6 @@ export const Description = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-//   gap: 10px;
   margin-bottom: 4px;
 `;
 
@@ -85,7 +84,7 @@ justify-content: center;
 flex-direction: column;
 width: 100%;
 
-  :first-child {
+  :first-of-type {
     margin-left: 5px;
   }
 
